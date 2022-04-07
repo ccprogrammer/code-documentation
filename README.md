@@ -2,7 +2,7 @@
 
 <br />
 
-#### # Adding Item + Creating The Model that contain list with another model
+### # Adding Item + Creating The Model that contain list with another model
 >1. The parent/first model that contain a list and it will be filled with another model
 ```
  class ItemModel {
@@ -50,7 +50,7 @@ class ItemListModel {
  4. when i click in parent item 2 the list that i add before doesn't appear but it will only appear in parent item 1
 ```
 
-#### # Remove Item
+### # Remove Item
 >1. This will remove item that are picked from looping/item builder index, i is the index from looping/item builder
 ```
  item.removeAt(id);
