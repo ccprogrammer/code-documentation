@@ -3,7 +3,7 @@
 <br />
 
 ### # Adding Item + Creating The Model that contain list with another model
->1. The parent/first model that contain a list and it will be filled with another model
+1. The parent/first model that contain a list and it will be filled with another model
 ```
  class ItemModel {
   int id;
@@ -16,7 +16,7 @@
   });
 ```
 
->2. This model will be add to the first model (ItemModel) List/itemList 
+2. This model will be add to the first model (ItemModel) List/itemList 
 ```
 class ItemListModel {
   int id;
@@ -28,7 +28,7 @@ class ItemListModel {
 }
 ```
 
->3. In the add function in ItemModel.itemList define what the list is from, we define it from ItemListModel so when we ada item in ItemListModel it will automatically listed in the ItemModel.itemList.
+3. In the add function in ItemModel.itemList defined what the list is from, we define it from ItemListModel so when we add item in ItemListModel it will automatically listed in the ItemModel.itemList.
 
 ```
   void addItem(id, itemName) {
@@ -42,7 +42,7 @@ class ItemListModel {
   }
 ```
 
->4. All this will result something like for example:
+4. All this will result something like for example:
 ```
  1. i add 2 parent item/first model
  2. 2 item show
@@ -51,7 +51,7 @@ class ItemListModel {
 ```
 
 ### # Remove Item
->1. This will remove item that are picked from looping/item builder index, i is the index from looping/item builder
+1. This will remove item that are picked from looping/item builder index, i is the index from looping/item builder
 ```
  item.removeAt(id);
  
@@ -65,7 +65,7 @@ class ItemListModel {
                       ),
 ```
 
->2. This will remove item if the item id is the same as the item id that are select/item that pressed to be remove
+2. This will remove item if the item id is the same as the item id that are select/item that pressed to be remove
 ```
 item.removeWhere(
       (element) => element.id == id,
