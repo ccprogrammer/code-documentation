@@ -12,7 +12,7 @@
 For more DateFormat skeleton you can visit this api [documentation](https://api.flutter.dev/flutter/intl/DateFormat-class.html) 
 
 ```
-1. method 1
+1. method 1 general
 var dateTimeRaw = DateTime.now();
 String dateTime = DateFormat.MMMMd().format(dateTimeRaw);
 
