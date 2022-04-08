@@ -5,7 +5,9 @@
 ## Misc
 
 ### # Datetime
-1. DateTime.now() will recieve current date time but only in number/raw, then using [intl](https://pub.dev/packages/intl) package to reformat it as you like. For example DateTime.now() will be reformat with DateFormat.MMMMd().format(DateTime.now()) for MMMMd is the skeleton format 
+1. DateTime.now() will recieve current date time but only in number/raw, then using [intl](https://pub.dev/packages/intl) package to reformat it as you like. 
+
+- For example DateTime.now() will be reformat with DateFormat.MMMMd().format(DateTime.now()) for MMMMd is the skeleton format 
 
 - MMMMd is 'month' 'day(in number)' / April 8
 
