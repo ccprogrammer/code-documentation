@@ -5,7 +5,7 @@
 ## Misc
 
 ### # Datetime
-1. DateTime.now() will recieve current date time but only in number/raw, then using `intl` package to reformat it as you like. For example DateTime.now() will be reformat with DateFormat.MMMMd().format(DateTime.now()) for MMMMd is the skeleton format 
+1. DateTime.now() will recieve current date time but only in number/raw, then using [intl](https://pub.dev/packages/intl) package to reformat it as you like. For example DateTime.now() will be reformat with DateFormat.MMMMd().format(DateTime.now()) for MMMMd is the skeleton format 
 
 - MMMMd is 'month' 'day(in number)' / April 8
 
@@ -76,7 +76,9 @@ class ItemListModel {
 
 
 <br />
+
 ### # Remove Item
+
 1. This will remove item that are picked from looping/item builder index, i is the index from looping/item builder
 ```
  item.removeAt(id);
@@ -98,7 +100,7 @@ item.removeWhere(
     );
 ```
 
-### # Implementing shared_preferences / localstorage
+### # Implementing [shared_preferences](https://pub.dev/packages/shared_preferences) / localstorage
 1. In newest flutter initializing the function is a little bit different put it outside the build
 ```
 final Future<SharedPreferences> _prefs = SharedPreferences.getInstance();
