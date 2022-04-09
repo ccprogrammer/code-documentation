@@ -34,6 +34,14 @@ Container(
 
 ```
 
+### # Container
+1. `Container` minimum height 
+```
+constraints: BoxConstraints(
+        minHeight: 100,
+      ),
+```
+
 <br />
 
 
