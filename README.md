@@ -22,6 +22,17 @@ String dateTime = DateFormat.MMMMd().format(dateTimeRaw);
 String dateTime = DateFormat.MMMMd().format(DateTime.now());
 ```
 
+### # Custom TextField 
+1. `Container` height that contain `TextField` is base on TextField words/ the height will increase/expand as the words increase for this to happend, the container didn't need any height and the TextField should be given `maxLines: null`, if maxLines is not put in the widget, the TextField will Expand horizontal and if `maxLines` is not null or have number it will expand verticaly but the parent Container height will not follow and the TextField can be scroll or like `ListView `
+```
+Container(
+    child: TextField(               
+              expands: false,
+              maxLines: null,
+            ),
+         ),
+
+```
 
 <br />
 
