@@ -92,7 +92,8 @@ class ItemListModel {
  1. i add 2 parent item/first model
  2. 2 item appear
  3. i click parent item 1 and add list/ItemListModel in it
- 4. when i click in parent item 2 the list that i add before doesn't appear but it will only appear in parent item 1
+ 4. when i click in parent item 2 the list that i add before doesn't appear 
+ but it will only appear in parent item 1
 ```
 
 
